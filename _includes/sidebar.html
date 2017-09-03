@@ -1,0 +1,59 @@
+{% if site.sidebar.twitter %}
+<div class="sidebar button">
+    <a href="https://twitter.com/abatchy17" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @abatchy</a><script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+{% endif %}
+
+{% if site.sidebar.github %}
+<div class="sidebar button">
+    <a class="github-button" href="https://github.com/abatchy17" data-style="mega" aria-label="Follow @abatchy17 on GitHub">Follow @abatchy17</a>
+</div>
+{% endif %}
+
+{% if site.sidebar.slack %}
+<div class="sidebar button">
+    <h5> Join NetSecFocus on slack! </h5>   
+    <a class="slack_button" href="https://netsecfocus.herokuapp.com/" target=_blank>NetSecFocus</a>
+</div>
+{% endif %}
+
+{% if site.sidebar.recent %}
+<div class="sidebar ">
+  <h2>Recent Posts</h2>
+  <ul>
+    {% for post in site.posts limit:5 %}
+    <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if site.sidebar.archive %}
+<div class="sidebar">
+		<h2>Blog Archive</h2>  
+		{% for post in site.posts %}
+			{% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+			{% if currentyear != year %}
+				{% unless forloop.first %}</ul>{% endunless %}
+					<h5>{{ currentyear }}</h5>
+					<ul class="posts">
+					{% capture year %}{{currentyear}}{% endcapture %} 
+				{% endif %}
+			<li><a href="{{ post.url | prepend: site.baseurl | prepend: site.url}}">{{ post.title }}</a></li>
+	{% endfor %}
+</div>
+{% endif %}
+
+{% if site.sidebar.tags %}
+<div class="sidebar">
+  <h2>Tags</h2>
+  <ul class="sideBarTags">
+    {% assign tags = (site.tags | sort:0) %}
+    {% for tag in tags %}
+    <li>
+      <a href="{{ site.baseurl}}/tag/{{ tag[0] }}" data-toggle="tooltip" data-placement="right" title="{{ tag[1].size }}">
+        <span>{{tag[0] }}</span></a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
