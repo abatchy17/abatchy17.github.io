@@ -89,7 +89,7 @@ Nmap done: 1 IP address (1 host up) scanned in 14.39 seconds
 [+] Results saved to /root/.onetwopunch  
 ```
 
-What catches your eye is that there's a web server running as well as mysql. While you navigate to the webserver in your browser, don't waste that CPU power and run `nikto and/or `dirbuster` too!
+What catches your eye is that there's a web server running as well as mysql. While you navigate to the webserver in your browser, don't waste that CPU power and run `nikto` and/or `dirbuster` too!
 
 ### 1.2 Scanning the web server
 
@@ -100,9 +100,9 @@ depending on what you need/looking for:
   1. **Investigating HTTP requests/responses**
     **Tools:** Burp Suite, Fiddler, Tamper Data/Cookies Manager+ (FF addons)
   2. **Scan for vulnerabilities (outdated version, LFI/RFI, SQLi, ...)**  
-    **Tools: **Nikto, sqlmap, nmap scripts
+    **Tools:** Nikto, sqlmap, nmap scripts
   3. **Search for hidden/misconfigured directories or files**  
-    **Tools: **Dirbuster, GoBuster, Nikto
+    **Tools:** Dirbuster, GoBuster, Nikto
 
 More can be found [here](http://sectools.org/tag/web-scanners/). Way more can be found [here](http://www.google.com/).
   
@@ -141,6 +141,8 @@ root@kali:~/Desktop# nikto -host 192.168.1.65
 * `config.php` is of great interest to us, as it might contain credentials to mysql or to the login form, yet investigating it shows an empty page, probably the content is only between PHP tags.
 * There's a login form, same as the one shown in http://192.168.1.65/?page=login. *Possibly vulnerable to LFI*.
 
+_____________________________________________________________________________
+
 ## 2\. Bruteforcing MySQL default credentials
 
 Bruteforcing a service for default credentials could be very rewarding, I tried bruteforcing MySQL manually as well as using `hydra` but in vain.
@@ -154,6 +156,8 @@ Enter password: (root)
 ERROR 1045 (28000): Access denied for user 'root'@'192.168.1.71' (using password: YES)  
 root@kali:~/Desktop#   
 ```
+
+_____________________________________________________________________________
 
 ## 3\. Checking out the web service
 
@@ -315,6 +319,8 @@ We haven't figured yet a way to access this page, but this page is full of juicy
 * Err 3: File name contains '/' to avoid LFI
 * Err 4: Failed to upload file
 
+_____________________________________________________________________________
+
 ## 4\. Accessing MySQL
 
 Alright, now that we know how to upload a backdoor, we need to be able to access this page. Let's try to access mysql remotely using the credentials we found in `config.php`.  
@@ -366,6 +372,8 @@ Passwords look to be in base64 format:
   * mike: SIfdsTEn6I
   * kane: iSv5Ym2GRo
 
+_____________________________________________________________________________
+  
 ## 5\. Uploading a backdoor
 
 Using any of the credentials provided allows us to access the upload page. What we want to do now is find a way to get a shell.
