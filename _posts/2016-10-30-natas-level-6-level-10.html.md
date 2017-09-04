@@ -24,6 +24,8 @@ Submitting the secret keyword in the form will reveal our next password.
 
 ![7]({{ site.baseurl}}/images/7.png)
 
+___________________________________________
+
 ## Natas 7
 
 2 pages beside the index page exist, `Home` and `About`. They don't seem
@@ -62,6 +64,8 @@ A simple request with the full path of the password file will do.
 Hitting `http://natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8`
 will reveal the password.
 
+___________________________________________
+
 ## Natas 8
 
 ```php
@@ -97,6 +101,8 @@ oubWYf2kBqr
 Submitting "oubWYf2kBqr" in the form will reveal the password.
 
 ![8]({{ site.baseurl}}/images/8.png)
+
+___________________________________________
 
 ## Natas 9
 
@@ -136,6 +142,7 @@ By sending a random character (hoping it's in the password) followed by the file
 
 Input: `a /etc/natas_webpass/natas10 #`
 
+___________________________________________
 
 ## Natas 10
 

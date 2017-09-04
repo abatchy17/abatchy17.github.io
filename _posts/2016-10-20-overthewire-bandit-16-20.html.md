@@ -79,6 +79,8 @@ Thanks!
 
 31518 was just another echo service, submitting our password via port 31790 reveals another SSH private key. After logging as Bandit17, the password for it is `xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn`.
 
+___________________________________________
+
 ## Bandit 17
 
 Quite straight forward, the `diff` command seems to be the sensible option. Let's check how to use it.
@@ -96,6 +98,7 @@ Mandatory arguments to long options are mandatory for short options too.
 
 Done! New password is the one on the right `kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd`.
 
+___________________________________________
 
 ## Bandit 18
 
@@ -154,6 +157,8 @@ So basically, we have two solutions:
 
 Or directly calling `sh` and have the regular interactive shell.
 
+___________________________________________
+
 ## Bandit 19
 
 In this challenge, we'll get introduced to a new concept, which is [`setuid`](https://en.wikipedia.org/wiki/Setuid). Any file/directory in Unix has read, write, execute (if not directory) permissions for owner, group or other. You can read more about permissions [here](https://www.tutorialspoint.com/unix/unix-file-permission.htm).
@@ -183,6 +188,8 @@ bandit20
 bandit19@melinda:~$ `./bandit20-do cat /etc/bandit_pass/bandit20`
 GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 ```
+
+___________________________________________
 
 ## Bandit 20
 

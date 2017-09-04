@@ -50,6 +50,7 @@ Second line copies the content of /etc/bandit_pass/bandit22 (containing our pass
 
 Password: `Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI`
 
+___________________________________________
 
 ## Bandit 22
 
@@ -75,6 +76,8 @@ bandit22@melinda:/etc/cron.d$ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
 jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 bandit22@melinda:/etc/cron.d$
 ```
+
+___________________________________________
 
 ## Bandit 23
 
@@ -121,6 +124,7 @@ UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
 
 Script got deleted, which means cron executed it and we got our password!
 
+___________________________________________
 
 ## Bandit 24
 
@@ -162,11 +166,13 @@ Exiting.
 
 Done.
 
+___________________________________________
+
 ## Bandit 25
 
 Just another SSH key, but you may want to look into /etc/passwd file...
 
-
+___________________________________________
 
 ## Bandit 26
 

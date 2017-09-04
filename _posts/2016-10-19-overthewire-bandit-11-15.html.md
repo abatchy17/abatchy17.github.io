@@ -34,6 +34,8 @@ bandit11@melinda:~$ cat data.txt | tr [:alpha:] '[O-ZA-No-za-n]'
 The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 ```
 
+___________________________________________
+
 ## Bandit 12
 
 Very interesting challenge, actually one of my favourites in the bandit series. First we need to make a temporary directory as suggested to unzip the files. Then copy `data.txt` and convert the ASCII text to binary (basically undumping the content), for that we'll be using [`xxd`](http://linuxcommand.org/man_pages/xxd1.html).
@@ -142,10 +144,13 @@ The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
 Got it!
 
+___________________________________________
 
 ## Bandit 13
 
 I'm currently using cygwin, but following any tutorial for adding ssh keys on linux will do.
+
+___________________________________________
 
 ## Bandit 14
 
@@ -157,6 +162,8 @@ Connection to 127.0.0.1 30000 port [tcp/*] succeeded!
 Correct!
 BfMYroe26WYalil77FoDi9qh59eK5xNr
 ```
+
+___________________________________________
 
 ## Bandit 15
 

@@ -22,6 +22,8 @@ boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 ```
 Yep, that's our password to bandit1.
 
+___________________________________________
+
 ## Bandit 1
 
 Password is in file called `-`, let's try reading the content with `cat`:
@@ -44,6 +46,8 @@ CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
 There you go! Our pasword for Bandit 2.
 
+___________________________________________
+
 ## Bandit 2
 
 Another easy one, the password is in a file called `spaces in this filename`.
@@ -62,6 +66,8 @@ cat: filename: No such file or directory
 bandit2@melinda:~$ cat spaces\ in\ this\ filename
 UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 ```
+
+___________________________________________
 
 ## Bandit 3
 
@@ -95,6 +101,8 @@ pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 bandit3@melinda:~/inhere$
 ```
 
+___________________________________________
+
 ## Bandit 4
 
 Password is in one of the files inside inhere directory, with humanly readable characters. Simply running cat for every file would do. Or a 1-line Bash for loop:
@@ -126,6 +134,8 @@ Reading file09
 #[:*▒▒▒?▒▒j▒▒▒U▒
 bandit4@melinda:~/inhere$
 ```
+
+___________________________________________
 
 ## Bandit 5
 

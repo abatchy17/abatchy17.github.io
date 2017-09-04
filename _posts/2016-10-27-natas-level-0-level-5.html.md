@@ -29,6 +29,8 @@ Eh, more of the same, you got different ways to do this though:
 <!--The password for natas2 is ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi -->
 ```
 
+___________________________________________
+
 ## Natas 2
 
 There's nothing on this page, hmm. Let's check the source again, shall we?
@@ -48,6 +50,8 @@ charlie:G5vCxkVV3m
 eve:zo4mJWyNj2
 mallory:9urtcpzBmH
 ```
+___________________________________________
+
 ## Natas 3
 
 Let's check the source again.
@@ -63,6 +67,8 @@ Sneaky, maybe we should play a little with [Google operators](http://www.googleg
 A hidden directory! Again, you'll find your password under [users.txt](http://natas3.natas.labs.overthewire.org/s3cr3t/users.txt).
 
 `natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ`
+
+___________________________________________
 
 ## Natas 4
 
@@ -84,6 +90,8 @@ Go back to the **"Inspector"** tab and below the request you'll find the respons
 ![4]({{ site.baseurl}}/images/4.png)
 
 Access granted. The password for natas5 is `iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq`.
+
+___________________________________________
 
 ## Natas 5
 

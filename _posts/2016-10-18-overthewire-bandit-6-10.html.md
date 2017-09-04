@@ -22,6 +22,8 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 Notice that we redirected stderr to avoid seeing the permission-denied messages.
 
+___________________________________________
+
 ## Bandit 7
 
 The password  is in data.txt next to the word millionth, of course we can just use cat and waste our time searching for the string millionth. Instead let's use [`grep`](https://www.gnu.org/software/grep/manual/grep.html) and pipe the output of cat to it.
@@ -32,6 +34,8 @@ To get an idea of how the file looks we can also use `head` or `tail`.
 bandit7@melinda:~$ cat data.txt | grep millionth
 millionth    cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ```
+
+___________________________________________
 
 ## Bandit 8
 
@@ -50,6 +54,8 @@ bandit8@melinda:~$ cat data.txt | sort | uniq -c | sort | grep -v 10
 1 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 ```
 
+___________________________________________
+
 ## Bandit 9
 
 Human readable strings? Let's use strings this time, then pipe the output to `grep`.
@@ -61,6 +67,8 @@ bandit9@melinda:~$ strings data.txt | grep ==
 ========== ism
 ========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 ```
+
+___________________________________________
 
 ## Bandit 10
 
