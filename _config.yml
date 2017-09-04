@@ -31,8 +31,7 @@ social:
   github: abatchy17
   linkedin: shahat
 
-# Google Analytics key, leave blank to ign
-ore
+# Google Analytics key, leave blank to ignore
 google_analytics_key: UA-105787720-1
 # Yandex metrica (https://metrica.yandex.com/) leave blank to ignore or put true to use
 yandex_metrica:
@@ -43,6 +42,7 @@ yandex_metrica:
 # disable on a post-by-post basis
 disqus: abatchy17-github-io
 comments: true
+
 permalink: /:year/:month/:title
 
 # Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
