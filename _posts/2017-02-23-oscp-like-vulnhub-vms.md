@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OSCP-link Vulnhub VMs"
+title: "OSCP-like Vulnhub VMs"
 date: 2017-02-23     12:00:00
 share: true
 comments: true
