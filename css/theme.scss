@@ -195,6 +195,8 @@ div.post-meta {
 //  border-width: 1px 0;
 //  border-color: #666666;
 //  border-style: solid;
+
+  float: right;
   margin: 0 0 10px;
   ul {
     display: inline;
@@ -392,47 +394,48 @@ nav.shrink .navbar-toggle {
 //********************************************************
 //******************* SIDE BAR ***************************
 //********************************************************
-
 .sidebar.button{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .slack_button {
-    background: #52a07a;
-    background: -moz-linear-gradient(top, #52a07a, #2b5541);
-    background: -webkit-gradient(linear, left top, left bottom, from(#52a07a), to(#2b5541));
-    background: linear-gradient(to bottom, #52a07a, #2b5541);
-    border-radius: 8px;
-    border: 1px solid #2b5541;
-    color: #ffffff !important;
     display: inline-block;
-    font: normal normal 15px arial;
-    padding: 12px 24px;
     text-align: center;
-    text-decoration: none;
-    text-shadow: #1a3226 1px 1px 1px;
     vertical-align: middle;
+    padding: 6px 24px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background: #df4763;
+    background: -webkit-gradient(linear, left top, left bottom, from(#df4763), to(#df4763));
+    background: -moz-linear-gradient(top, #df4763, #df4763);
+    background: linear-gradient(to bottom, #df4763, #df4763);
+    -webkit-box-shadow: #000000 2px 2px 0px 0px;
+    -moz-box-shadow: #000000 2px 2px 0px 0px;
+    box-shadow: #000000 2px 2px 0px 0px;
+    text-shadow: #703333 3px 1px 1px;
+    font: normal normal normal 15px arial;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .slack_button:hover,
 .slack_button:focus {
-    border: 1px solid #33644c;
-    background: #62c092;
-    background: -webkit-gradient(linear, left top, left bottom, from(#62c092), to(#34664e));
-    background: -moz-linear-gradient(top, #62c092, #34664e);
-    background: linear-gradient(to bottom, #62c092, #34664e);
+    background: #ff7a7a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff7a7a), to(#ff7a7a));
+    background: -moz-linear-gradient(top, #ff7a7a, #ff7a7a);
+    background: linear-gradient(to bottom, #ff7a7a, #ff7a7a);
     color: #ffffff;
     text-decoration: none;
 }
 
 .slack_button:active {
-    background: #2b5541;
-    background: -webkit-gradient(linear, left top, left bottom, from(#2b5541), to(#2b5541));
-    background: -moz-linear-gradient(top, #2b5541, #2b5541);
-    background: linear-gradient(to bottom, #2b5541, #2b5541);
+    background: #863d3d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#863d3d), to(#df4763));
+    background: -moz-linear-gradient(top, #863d3d, #df4763);
+    background: linear-gradient(to bottom, #863d3d, #df4763);
 }
 
-.slack_button:before{
+.slack_button:before {
     content:  "\0000a0";
     display: inline-block;
     height: 24px;
@@ -442,6 +445,6 @@ nav.shrink .navbar-toggle {
     position: relative;
     top: 0px;
     left: 0px;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABsUlEQVRIib3VwYtOYRQG8F+zmDRJmmZhMUn6kiQrKwtJsrCQbtaShSRZWEia1OQPkCRJFtIkf4CFhcVkLVmQlJWmL9mQpjDduRb35bvfcb33fpOcOnXf+57zPO8553nvZTLbhddYxdUJc3vZQ1TJSwy6EqZa3u1EgbmWvR8ht0jP8ziB7V2E+9XlV/jQQnLMqIIK7/FcXU2Fr9iXI1gMABfC/g58DzHRL+UITobg5VTFWTzrAf4Fe3IEW1JQc5BrHaCVWlnXdMxgDmcw7AHY9BK7c8CwYDTcnK/gBp6E91dy4Nt6tGEJB41kfTTsv8gRzLacvgzrqKZN+BhiBskv46Yg10Kt5yUcx6mQvNxysPv+bF+zE0PM/K2qGfWl+RW8Zlwh87gr39ZKh6oeh+BFnE/VdM2sTN1o+xT9tnjp+vgQ17E3B75VPYOnGyB41XXqgX4XbQW3cdi4mkodn4qFDuBPOILpRk5U07kmYCznXVh/xrfGehZvjf8XHmA9Pa/jTa6CKZzGLfWQN+NROOHFlrwC91LOxFYEgjsbAcnZNF4m8FUc+NcE1Df7kB7/3P9uPwFoOuvZ+5gFiwAAAABJRU5ErkJggg==") no-repeat left center transparent;
-    background-size: 100% 100%;
+    background: url("/images/slack.png") no-repeat left center transparent;
+    background-size: 75% 75%;
 }

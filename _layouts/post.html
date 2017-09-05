@@ -9,7 +9,6 @@
                     <div class="post-time">
                       {{ page.date | date: "%A, %B %-d, %Y" }}
                     </div>
-                  <h1><a href="{{ site.baseurl | append:page.url }}">{{ page.title }}</a></h1>
                   <div class="post-meta">
                     <ul>
                       {% for tag in page.tags %}
@@ -17,6 +16,7 @@
                       {% endfor %}
                     </ul>
                   </div>
+                  <h1><a href="{{ site.baseurl | append:page.url }}">{{ page.title }}</a></h1>
                   <div class="post-content">
                     <div id="toc" class="toc"></div>
                     {{ content }}
