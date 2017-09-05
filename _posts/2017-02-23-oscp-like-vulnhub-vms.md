@@ -1,14 +1,16 @@
-Before starting the PWK course I solved little over a dozen of the Vulnhub
-VMs, mainly so I don't need to start from rock bottom on the PWK lab. Below is
-a list of machines I rooted, most of them are similar to what you'll be facing
-in the lab. I've written walkthroughs for a few of them as well, but try
-harder first ;)  
-  
+---
+layout: post
+title: "OSCP-link Vulnhub VMs"
+date: 2017-02-23     12:00:00
+share: true
+comments: true
+---
 
-## *nix
-
+Before starting the PWK course I solved little over a dozen of the Vulnhub VMs, mainly so I don't need to start from rock bottom on the PWK lab. Below is a list of machines I rooted, most of them are similar to what you'll be facing in the lab. I've written walkthroughs for a few of them as well, but try harder first ;)  
   
-**Beginner friendly:**  
+# Linux
+  
+### Beginner friendly
 
   * [Kioptrix: Level 1 (#1)](https://www.vulnhub.com/entry/kioptrix-level-1-1,22/) 
   * [Kioptrix: Level 1.1 (#2) ](https://www.vulnhub.com/entry/kioptrix-level-11-2,23/)
@@ -18,14 +20,14 @@ harder first ;)
   * [Stapler: 1](https://www.vulnhub.com/entry/stapler-1,150/)
   * [PwnLab: init](https://www.vulnhub.com/entry/pwnlab-init,158/)
 
-** Intermediate:**  
+### Intermediate
 
   * [Kioptrix: 2014](https://www.vulnhub.com/entry/kioptrix-2014-5,62/)
   * [Brainpan: 1](https://www.vulnhub.com/entry/brainpan-1,51/)
   * [Mr-Robot: 1  ](https://www.vulnhub.com/entry/mr-robot-1,151/)
   * [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
 
- **Not so sure (Didn't solve them yet):**  
+### Not so sure (Didn't solve them yet)
 
   * [VulnOS: 2](https://www.vulnhub.com/entry/vulnos-2,147/)
   * [SickOs: 1.2](https://www.vulnhub.com/entry/sickos-12,144/)
@@ -34,7 +36,9 @@ harder first ;)
   * [SkyTower: 1](https://www.vulnhub.com/entry/skytower-1,96/) 
   * [IMF](https://www.vulnhub.com/entry/imf-1,162/)
 
-## **Windows **
+---
+  
+# Windows
 
 There aren't many Windows machines around due to licensing. Few options:  
 
@@ -44,4 +48,7 @@ There aren't many Windows machines around due to licensing. Few options:
   * Set up your own lab. Default Windows XP SP0 will give you the chance to try out a few remote exploits, or doing some privilege escalation using weak services.
   * [/dev/random: Sleepy](https://www.vulnhub.com/entry/devrandom-sleepy,123/) (Uses VulnInjector, need to provide you own ISO and key.)**[ ](https://www.vulnhub.com/entry/devrandom-sleepy,123/)**
   * [ Bobby: 1](https://www.vulnhub.com/entry/bobby-1,42/) (Uses VulnInjector, need to provide you own ISO and key.)
+  
+If you think something is worth to be added to this list please mention it in the comments, I do check them ;)
 
+\- Abatchy
