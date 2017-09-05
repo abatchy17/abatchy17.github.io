@@ -7,19 +7,16 @@ comments: true
 ---
 
 [TL;DR](http://www.wikihow.com/Avoid-Becoming-a-Script-Kiddie)  
-  
-_Note: I'm currently studying through this myself, so links will continuously be updated. If you think a link should (not) be here, please let me know in the comments._  
-  
+    
 
-### [1\. OSCE OSCE Course Outline](osce-course-outline)
+## Table of Content
 
-### [2\. Online Study Resources](#2-online-study-resources)
+1. [OSCE OSCE Course Outline](#osce-course-outline)
+2. [Online Study Resources](#online-study-resources)
+3. [Offline Study Resources](#offline-study-resources)
+4. [Practice](#practice)
 
-### [3\. Offline Study Resources](#3-offline-study-resources)
-
-### [4\. Practice](#4-practice)
-
-  
+---
 
 ## OSCE Course Outline
 
@@ -57,7 +54,8 @@ _Note: I'm currently studying through this myself, so links will continuously be
 * Open TFTP 1.4 (CVE-2008-1611)  
 * HP OpenView NNM  
 * Bypassing Cisco ACL using Spoofed SNMP Requests  
-  
+
+---
 
 ## Online Study Resources
 
@@ -128,6 +126,7 @@ _Note: I'm currently studying through this myself, so links will continuously be
 * [NNM Exploit](https://www.youtube.com/watch?v=axTthxE-z6A)  
 * [Bypassing Cisco Access Lists using Spoofed SNMP Requests](http://web.archive.org/web/20051024151559/http://new.remote-exploit.org/index.php/SNMP_Spoof)   
   
+---
 
 ## Offline Study Resources
 
@@ -135,6 +134,8 @@ _Note: I'm currently studying through this myself, so links will continuously be
 1. Hacking: The Art of Exploitation: Chapter 1,2,3 and 5 are relevant to OSCE.  
 2. Assembly Language Step-by-Step: Programming with Linux  
 3. The Shellcoder's Handbook: Discovering and Exploiting Security Holes  
+
+---
 
 ## Practice
 
@@ -146,3 +147,9 @@ _Note: I'm currently studying through this myself, so links will continuously be
 6. <https://exploit-exercises.com/fusion/>
 7. <http://io.netgarage.org:84/> (Thanks WhizzMan!)
 
+---
+
+_Note: I'm currently studying through this myself, so links will continuously be updated. If you think a link should (not) be here, please let me know in the comments._  
+
+
+\- Abatchy
