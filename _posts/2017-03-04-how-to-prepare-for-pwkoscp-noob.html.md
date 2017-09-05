@@ -12,20 +12,20 @@ Few months ago, I didn't know what Bash is, who that root guy people were scared
 _Warning: Don't expect to be spoon-fed if you're doing OSCP, you'll need to spend a lot of time researching, neither the admins or the other students will give you answers easily._  
   
 #### 1\. PWK Syllabus
-1. Linux and Bash  
-2. Basic tools  
-3. Passive Recon  
-4. Active Recon  
-5. Buffer Overflow  
-6. Using public exploits  
-7. File Transfer  
-8. Privilege Escalation  
-9. Client Side Attacks  
-10. Web Application Attacks  
-11. Password Attacks  
-12. Port Redirection/Tunneling  
-13. Metasploit Framework  
-14. Antivirus Bypassing
+* Linux and Bash  
+* Basic tools  
+* Passive Recon  
+* Active Recon  
+* Buffer Overflow  
+* Using public exploits  
+* File Transfer  
+* Privilege Escalation  
+* Client Side Attacks  
+* Web Application Attacks  
+* Password Attacks  
+* Port Redirection/Tunneling  
+* Metasploit Framework  
+* Antivirus Bypassing
     
 #### 2\. Wargames
 * Over The Wire: Bandit  
@@ -40,7 +40,7 @@ _Warning: Don't expect to be spoon-fed if you're doing OSCP, you'll need to spen
 
 Simply the most important reference in the list, it shows the course modules in a detailed way. Entire preparation I did was based on it. Can be found [here](https://www.offensive-security.com/documentation/penetration-testing-with-kali.pdf).
 
-### 1.1 Linux and Bash:
+### Linux and Bash:
 
 You don't need to use Kali Linux right away, a good alternative is Ubuntu till you get comfortable with Linux.  
 
@@ -49,7 +49,7 @@ You don't need to use Kali Linux right away, a good alternative is Ubuntu till y
 * [`OverTheWire: Bandit`](http://overthewire.org/wargames/bandit/): Great start for people who aren't used to using a terminal, aren't familiar with Bash or other *nix in general. Each challenge gives you hints on which commands you can use, you need to research them.  
 * [`Explainshell`](http://www.explainshell.com/): Does NOT replace man pages, but breaks down commands easily for new comers.  
 
-### 1.2 Basic tools:
+### Basic tools:
 
 You will use these tools **a lot**. Make sure you understand what they do and how you can utilize them.  
   
@@ -59,7 +59,7 @@ You will use these tools **a lot**. Make sure you understand what they do and ho
 * `TCPdump`: Not all machines have that cute GUI, you could be stuck with a terminal.  
   
 
-### 1.3 Passive Recon:
+### Passive Recon:
 
 Read about the following tools/techniques, experiment as much as possible.  
   
@@ -68,29 +68,29 @@ Read about the following tools/techniques, experiment as much as possible.
 * [`Netcraft`](https://searchdns.netcraft.com/)  
 * [`Recon-ng`](https://bitbucket.org/LaNMaSteR53/recon-ng): Make sure you check the [Usage guide](https://bitbucket.org/LaNMaSteR53/recon-ng/wiki/Usage%20Guide) to know how it works.  
 
-### 1.4 Active Recon:
+### Active Recon:
 
   * Understand what DNS is, how it works, how to perform forward and reverse lookup, what zone transfers are and how to perform them. Great resource [here](http://resources.infosecinstitute.com/dns-hacking/#gref).
   * Nmap: One of the most used tools during the course (if not the most). I'd recommend to start by reading the [man pages](https://nmap.org/book/man.html), understand different scanning techniques and other capabilities it has (scripts, OS detection, Service detection, ...)
   * Services enumeration: [`SMTP`](https://pentestlab.blog/2012/11/20/smtp-user-enumeration/), [`SNMP`](http://carnal0wnage.attackresearch.com/2007/07/over-in-lso-chat-we-were-talking-about.html), SMB, and a lot others. Don't just enumerate them, understand what they're used for and how they work.
   * Great list for [enumeration](http://0daysecurity.com/penetration-testing/enumeration.html) and tools.
 
-### 1.5 Buffer Overflow:
+### Buffer Overflow:
 
 Most fun part in my opinion. There are countless resources on how to get started, I'd recommend [Corelan's series](https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/). You probably need the first part only for PWK.  
   
 
-### 1.6 Using public exploits:
+### Using public exploits:
 
 Occasionally, you'll need to use a public exploit, maybe even modify the shellcode or other parts. Just go to Exploit-db and pick one of the older more reliable exploits (FTP ones for example). The vulnerable version is usually present with the exploit code.  
   
 
-### 1.7 File Transfer:
+### File Transfer:
 
 Not every machine has netcat installed, you'll need to find a way around it to upload exploits or other tools you need. Great post on this is [here](https://blog.ropnop.com/transferring-files-from-kali-to-windows/).  
   
 
-### 1.8 Privilege Escalation:
+### Privilege Escalation:
 
 A never ending topic, there are a lot of techniques, ranging from having an admin password to kernel exploits. Great way to practice this is by using Vulnhub VMs for practice. Check my OSCP-like VMs list [here](http://www.abatchy.com/2017/02/oscp-like-vulnhub-vms.html).  
   
@@ -109,29 +109,29 @@ A never ending topic, there are a lot of techniques, ranging from having an admi
 </tbody></table>
 </center>  
 
-### 1.9 Client Side Attacks:
+### Client Side Attacks:
 
 Try out the techniques provided in [Metasploit Unleashed ](https://www.offensive-security.com/metasploit-unleashed/client-side-attacks/)or an IE client side exploit.  
 
-### 1.10 Web Application Attacks
+### Web Application Attacks
 
 Another lengthy subject, understand what XSS is, [`SQL injection`](https://www.exploit-db.com/papers/13045/), [`LFI`](https://www.exploit-db.com/docs/40992.pdf), RFI, directory traversal, how to use a proxy like Burp Suite. Solve as much as you can from [`OverTheWire: Natas`](http://overthewire.org/wargames/natas/). It has great examples on Code Injection, Session hijacking and other web vulnerabilities.  
   
 Key is research till you feel comfortable.  
 
-### 1.11 Password Attacks:
+### Password Attacks:
 
 Understand the basics of password attacks, difference between online and offline attacks. How to use [`Hydra`](http://sectools.org/tool/hydra/), [`JTR`](https://github.com/magnumripper/JohnTheRipper), [`Medusa`](https://en.kali.tools/?p=200), what rainbow tables are, the list goes on. Excellent post on this topic [here](https://alexandreborgesbrazil.files.wordpress.com/2013/08/introduction_to_password_cracking_part_1.pdf).
 
-### 1.12 Port redirection/tunneling:
+### Port redirection/tunneling:
 
 Not all machines are directly accessible, some are dual homed, connected to an internal network. You'll use such techniques a lot in non-public networks. [This post](https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/) did a great job explaining it.  
 
-### 1.13 Metasploit Framework:
+### Metasploit Framework:
 
 Decided to skip this part, but if you still want to study it, check out [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/) course.
 
-### 1.14 Antivirus Bypassing
+### Antivirus Bypassing
 
 Skipped this part too. Pretty basic in OSCP.  
   
@@ -142,17 +142,17 @@ Skipped this part too. Pretty basic in OSCP.
 Consider these a prep for vulnerable machines.  
   
 
-### 2.1 OverTheWire: Bandit
+### OverTheWire: Bandit
 
 Great start for people who aren't familiar with Linux or Bash. Check my walkthroughs [here](http://localhost:4000/tag/bandit/).  
   
 
-### 2.2 Over The Wire: Natas
+### Over The Wire: Natas
 
 Focused on web application, many challenges aren't required for OSCP, but it helps for sure. Check my walkthroughs [here](http://localhost:4000/tag/natas/).  
   
 
-### 2.3 Root-me.org
+### Root-me.org
 
 Has great challenges on privilege escalation, SQL injection, Javascript obfuscation, password cracking and analyzing PCAP files  
   
@@ -161,6 +161,8 @@ Has great challenges on privilege escalation, SQL injection, Javascript obfuscat
 ## 3\. Vulnerable Machines
 
 Boot-to-root VMs are excellent for pentesting, you import a VM, run it and start enumerating from your attacking machine. Most of them result in getting root access. Check my [post](http://www.abatchy.com/2017/02/oscp-like-vulnhub-vms.html) on which machines are the closest to OSCP. Rooting VMs is as important as studying the material. You can't depend on theoretical knowledge only, yet you still need this knowledge to help you tackle harder machines.
+
+---
 
 If you still have questions, feel free to comment below or ask on our [NetSecFocus slack](https://netsecfocus.herokuapp.com/)!
   
