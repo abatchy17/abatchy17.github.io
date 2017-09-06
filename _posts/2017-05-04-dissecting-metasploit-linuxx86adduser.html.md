@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Analyzing Metasploit linux/x86/adduser module using GDB"
+title: "Analyzing Metasploit linux/x86/adduser module using GDB"
 date: 2017-05-04 12:00:00
 share: true
 comments: true
@@ -10,7 +10,9 @@ _This blog post has been created for completing the requirements of the [Securit
 _**Student ID:** SLAE-885_
 _**Assignment number:** 5.1_
 _**Github repo:** <https://github.com/abatchy17/SLAE>_  
-  
+
+---
+ 
 Next assignment requires dissecting three linux/x86 MSF payloads using one of the following tools (`GDB` - `ndisasm` - `libemu`). In this post I'll show how the `linux/x86/adduser` is executed using GDB.  
   
 

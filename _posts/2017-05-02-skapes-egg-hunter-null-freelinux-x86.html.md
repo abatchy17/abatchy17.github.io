@@ -10,8 +10,11 @@ _This blog post has been created for completing the requirements of the [Securit
 _**Student ID:** SLAE-885_
 _**Assignment number:** 3_
 _**Github repo:** <https://github.com/abatchy17/SLAE>_  
-  
+
+---
+ 
 _Note: Pretty much the entire post is extracted from Skape's paper, it's extremely well-written and is a must read._  
+
 
 ## What is an egghunter?
 
