@@ -1,6 +1,7 @@
 # Jekyll configuration
 
 name: abatchy's blog
+title: abatchy's blog
 description: Just another security blog.
 
 # Url is currently only used only for the RSS feed in feed.xml
