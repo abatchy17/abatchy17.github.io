@@ -4,7 +4,7 @@ title: "OverTheWire: Bandit 0-5"
 date: 2016-10-17 12:00:00
 share: true
 comments: true
-tags: overthewire bandit
+tags: [OverTheWire - Bandit]
 ---
 
 We all have to start somewhere, and I decided to solve OverTheWire wargames, starting with the first set of challenges called [Bandit](http://overthewire.org/wargames/bandit/).

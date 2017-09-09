@@ -4,7 +4,7 @@ title: "LTR Scene 1 Walthrough (Vulnhub)"
 date: 2017-03-26 12:00:00
 share: true
 comments: true
-tags: vulnhub
+tags: [Vulnhub Walkthrough]
 ---
 
 21LTR: Scene 1 VM can be downloaded [here](https://www.vulnhub.com/entry/21ltr-scene-1,3/). Had to use a couple of hints to proceed.

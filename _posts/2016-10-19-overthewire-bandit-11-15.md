@@ -4,7 +4,7 @@ title: "OverTheWire: Bandit 11-15"
 date: 2016-10-19 12:00:00
 share: true
 comments: true
-tags: overthewire bandit
+tags: [OverTheWire - Bandit]
 ---
 
 ## Bandit 11

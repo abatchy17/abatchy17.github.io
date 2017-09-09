@@ -4,7 +4,7 @@ title: "OverTheWire: Natas 6-10"
 date: 2016-10-30 12:00:00
 share: true
 comments: true
-tags: overthewire natas
+tags: [OverTheWire - Natas]
 ---
 
 _Many challenges from now on will show you the source code behind it.Some of these implementations are quite similar to what is actually used in production, so it's both valuable to know how they work as well as how you can exploit them._

@@ -4,7 +4,7 @@ title: "Wallaby's Nightmare Walkthrough (Vulnhub)"
 date: 2017-01-03 12:00:00
 share: true
 comments: true
-tags: vulnhub
+tags: [Vulnhub Walkthrough]
 ---
 
 Wallaby's: Nightmare VM can be downloaded [here](https://www.vulnhub.com/entry/wallabys-nightmare-102,176/).

@@ -4,7 +4,7 @@ title: "OverTheWire: Natas 14 and 15"
 date: 2016-11-15 12:00:00
 share: true
 comments: true
-tags: overthewire natas
+tags: [OverTheWire - Natas]
 ---
 
 Starting this challenge, we'll be doing some fun SQL injection challenges. You may want to read about SQL, Regex and Python for easier understanding.

@@ -4,7 +4,7 @@ title: "TCP Bind Shell in Assembly (null-free/Linux x86)"
 date: 2017-05-01 12:00:00
 share: true
 comments: true
-tags: shellcoding exploitation slae
+tags: [Exploit Development, Shellcoding, SLAE, OSCE Prep]
 ---
 
 _This blog post has been created for completing the requirements of the [SecurityTube Linux Assembly Expert certification](http://securitytube-training.com/online-courses/securitytube-linux-assembly-expert/)._

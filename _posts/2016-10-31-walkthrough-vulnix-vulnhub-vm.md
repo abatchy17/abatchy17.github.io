@@ -4,7 +4,7 @@ title: "Vulnix Walthrough (Vulnhub)"
 date: 2016-10-31 12:00:00
 share: true
 comments: true
-tags: vulnhub
+tags: [Vulnhub Walkthrough]
 ---
 
 Vulnix is a challenging vulnerable VM, you can download it from  [Vulnhub](https://www.vulnhub.com/entry/hacklab-vulnix,48/  ). Thanks to [Rebootuser](https://www.rebootuser.com/) for creating this fun challenge!

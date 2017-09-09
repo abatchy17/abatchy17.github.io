@@ -4,7 +4,7 @@ title: "Kioptrix 2 Walkthrough (Vulnhub)"
 date: 2016-12-15 12:00:00
 share: true
 comments: true
-tags: vulnhub kioptrix
+tags: [Vulnhub Walkthrough, Kioptrix series]
 ---
 
 _Kioptrix 2 VM can be downloaded [here](https://www.vulnhub.com/entry

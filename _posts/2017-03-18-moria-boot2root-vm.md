@@ -4,7 +4,7 @@ title: " Moria v1.1: A Boot2Root VM"
 date: 2017-03-18 12:00:00
 share: true
 comments: true
-tags: vulnhub
+tags: [Vulnhub Walkthrough]
 ---
 
 [![](http://i.imgur.com/Jl7qNkr.png)](http://i.imgur.com/Jl7qNkr.png)

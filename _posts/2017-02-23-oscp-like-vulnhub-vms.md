@@ -4,7 +4,7 @@ title: "OSCP-like Vulnhub VMs"
 date: 2017-02-23     12:00:00
 share: true
 comments: true
-tags: vulnhub oscp
+tags: [Vulnhub Walkthrough, OSCP Prep]
 ---
 
 Before starting the PWK course I solved little over a dozen of the Vulnhub VMs, mainly so I don't need to start from rock bottom on the PWK lab. Below is a list of machines I rooted, most of them are similar to what you'll be facing in the lab. I've written walkthroughs for a few of them as well, but try harder first ;)  

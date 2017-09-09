@@ -4,7 +4,7 @@ title: " Shellcode reduction tips (x86) "
 date: 2017-04-19 12:00:00
 share: true
 comments: true
-tags: shellcoding exploitation slae
+tags: [Exploit Development, Shellcoding, SLAE, OSCE Prep]
 ---
 
 **Public reminder to add some tricks sometime** 

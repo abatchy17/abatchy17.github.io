@@ -4,7 +4,7 @@ title: "How to prepare for PWK/OSCP, a noob-friendly guide "
 date: 2017-03-04 12:00:00
 share: true
 comments: true
-tags: oscp
+tags: [OSCP Prep]
 ---
 
 Few months ago, I didn't know what Bash is, who that root guy people were scared of, and definitely never heard of SSH tunneling. I also didn't like paying for the PWK lab time without using it, so I went through a number of resources till I felt ready for starting the course.  
