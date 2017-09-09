@@ -6,6 +6,7 @@ share: true
 comments: true
 hidecontent: true
 description: "Click title to see the PDF. Mirror: https://www.exploit-db.com/docs/42061.pdf"
+tags: backdooring exploitation
 ---
 
 <iframe src="https://drive.google.com/file/d/0BzTMVvQpyo1bN2JOM1ZfVmVGRFU/preview" width="100%" height="100%"/>

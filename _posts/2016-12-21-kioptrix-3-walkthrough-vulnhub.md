@@ -4,6 +4,7 @@ title: "Kioptrix 3 Walkthrough (Vulnhub)"
 date: 2016-12-21 12:00:00
 share: true
 comments: true
+tags: vulnhub kioptrix
 ---
 
 Kioptrix 3 VM can be downloaded [here](https://www.vulnhub.com/entry/kioptrix-level-12-3,24/)  

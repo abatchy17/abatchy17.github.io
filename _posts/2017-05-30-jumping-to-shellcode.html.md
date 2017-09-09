@@ -4,6 +4,7 @@ title: "Exploit Dev 101: Jumping to Shellcode"
 date: 2017-05-30     12:00:00
 share: true
 comments: true
+tags: exploitation
 ---
 
 _**Note:** This post summarizes the techniques discussed in Corelan [post](https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/) on jumping to shellcode. Read it for better understanding._  

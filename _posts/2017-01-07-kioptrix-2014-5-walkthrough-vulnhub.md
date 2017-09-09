@@ -4,6 +4,7 @@ title: "Kioptrix 2014 (#5) Walkthrough"
 date: 2017-01-07 12:00:00
 share: true
 comments: true
+tags: vulnhub kioptrix
 ---
 
 Kioptrix 2014 VM can be downloaded[here](https://www.vulnhub.com/entry/kioptrix-2014-5,62/). 

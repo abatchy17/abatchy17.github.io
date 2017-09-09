@@ -4,6 +4,7 @@ title: "OverTheWire: Bandit 21-26"
 date: 2016-10-21 12:00:00
 share: true
 comments: true
+tags: overthewire bandit
 ---
 
 ## Bandit 21

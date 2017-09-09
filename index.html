@@ -3,21 +3,22 @@ layout: page
 ---
 
 {% for post in site.posts limit:5 %}
+<div>
+                    <div class="post-time">
+                      {{ post.date | date: "%A, %B %-d, %Y" }}
+                    </div>
+                  <div class="post-meta">
+                    <ul>
+                      {% for tag in post.tags %}
+                        <li><a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </div>
   <h2 class="post-title">
     <a href="{{post.url | prepend:site.baseurl | prepend:site.url}}">
       {{ post.title }}
     </a>
   </h2>
-
-  <div class="post-meta">
-                    <div class="post-time">
-                      <time>{{ post.date | date: "%A, %B %-d, %Y" }}</time>
-                    </div>
-  <ul>
-    {% for tag in post.tags %}
-    <li><a href="{{site.baseurl | prepend:site.url}}/tag/{{ tag }}">{{ tag }}</a></li>
-    {% endfor %}
-  </ul>
 </div>
 
   <div class="post-descr">

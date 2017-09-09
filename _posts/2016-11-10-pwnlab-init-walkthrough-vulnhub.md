@@ -4,6 +4,7 @@ title: "PwnLab: init Walkthrough (Vulnhub)"
 date: 2016-11-10 12:00:00
 share: true
 comments: true
+tags: vulnhub
 ---
 
 [PwnLab: init](https://www.vulnhub.com/entry/pwnlab-init,158/) is a great boot2root VM for beginner pentester. Let's get started, shall we?

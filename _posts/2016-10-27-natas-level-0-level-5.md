@@ -4,6 +4,7 @@ title: "OverTheWire: Natas 0-5"
 date: 2016-10-27 12:00:00
 share: true
 comments: true
+tags: overthewire natas
 ---
 
 Next challenge I'll be writing for is Natas. Extremely fun challenge although sometimes frustrating if you're not sure what you're trying to do. First few challenges are easy, so I'll be doing a few per post.

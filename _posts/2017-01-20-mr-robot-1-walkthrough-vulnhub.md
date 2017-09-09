@@ -4,6 +4,7 @@ title: "Mr Robot Walkthrough (Vulnhub)"
 date: 2017-02-20 12:00:00
 share: true
 comments: true
+tags: vulnhub
 ---
 
 Mr Robot 1 VM can be downloaded [here](https://www.vulnhub.com/entry/mr-robot-1,151/).

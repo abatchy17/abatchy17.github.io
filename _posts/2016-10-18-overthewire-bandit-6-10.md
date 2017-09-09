@@ -4,6 +4,7 @@ title: "OverTheWire: Bandit 6-10"
 date: 2016-10-18 12:00:00
 share: true
 comments: true
+tags: overthewire bandit
 ---
 
 ## Bandit 6

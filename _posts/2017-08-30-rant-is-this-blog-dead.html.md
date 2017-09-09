@@ -4,6 +4,7 @@ title: "[Rant] Is this blog dead?"
 date: 2017-08-30     12:00:00
 share: true
 comments: true
+tags: rant
 ---
 
 No new posts for a while now, wtf is going on?  
