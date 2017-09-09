@@ -22,7 +22,11 @@ layout: page
 
   <div class="post-descr">
     <p>
+    {% if post.hidecontent != true %}
       {{ post.content }}
+    {% else %}
+        {{ post.description }}
+    {% endif %}
     </p>
   </div>
   <hr>
