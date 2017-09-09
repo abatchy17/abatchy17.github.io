@@ -11,13 +11,12 @@ No new posts for a while now, wtf is going on?
   
 Well, I started a [new role](https://twitter.com/abatchy17/status/883517803080294402) a couple of months ago and I didn't have much time to blog (I still kind of don't).
 
-Few things I want to do / blog about in the next months
+Few things I want to do / blog about in the next months:
 
-Participate in CTFs (hopefully write some extended guide for beginners on it), do OSCE sometime before 2018, and blog about kernel exploitation techniques.
+* Participate in CTFs (hopefully write some extended guide for beginners on it)
+* Get done with OSCE sometime before 2018
+* Blog about kernel driver basics and exploitation techniques.
 
 Note: I deleted last couple of posts on CTFs and might migrate them to gitbook.
   
-/rant  
-  
-\- Abatchy
-
+/rant
