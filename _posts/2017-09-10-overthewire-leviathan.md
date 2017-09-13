@@ -4,6 +4,7 @@ title: "OverTheWire: Leviathan Walkthrough"
 date: 2017-09-10     12:00:00
 share: true
 comments: true
+description: Walkthrough for OTW's Leviathan all levels.
 tags: [OverTheWire - Leviathan]
 ---
 

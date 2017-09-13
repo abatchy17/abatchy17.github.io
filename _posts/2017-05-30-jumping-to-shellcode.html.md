@@ -4,6 +4,7 @@ title: "Exploit Dev 101: Jumping to Shellcode"
 date: 2017-05-30     12:00:00
 share: true
 comments: true
+description: Discussion about various methods on locating and jumping to shellcode in stack-based exploits and others.
 tags: [Exploit Development, OSCE Prep]
 ---
 

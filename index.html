@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:10 %}
 <div>
                     <div class="post-time">
                       {{ post.date | date: "%A, %B %-d, %Y" }}
@@ -23,11 +23,7 @@ layout: page
 
   <div class="post-descr">
     <p>
-    {% if post.hidecontent != true %}
-      {{ post.content }}
-    {% else %}
         {{ post.description }}
-    {% endif %}
     </p>
   </div>
   <hr>
