@@ -133,7 +133,7 @@ Notice how we expressed the bytes in little-endian (values like `\x0d98c5a8` bei
 
 ---
 
-## Toddler's Bottle: `collision`
+## Toddler's Bottle: `bof`
 
 To solve this challenge, you need to be familiar with memory layout in C, stack frames and how local variables/parameters are located.
 
