@@ -12,7 +12,7 @@ tags: [DefCamp CTF Qualifications 2017]
 
 The python [code](https://dctf.def.camp/quals-2017-kalskflsafkl/chess.py) provided allows you to make a single move then it makes some predefined moves. The goal was a bit confusing to me at first as I wasn't sure if they wanted the position of the king after the first move only (assuming it survided) or its final position regardless. It was the latter.
 
-I tweaked the code a bit so that it tries all the possible (wrong) moves that would matter, which are the king's. So basically:
+I tweaked the code a bit so that it tries all the possible (wrong) moves that would matter, which are the king's only, moving other pieces is irrelevant. So basically:
 
 1. Make king move from e1 to X ([a-h][1-8]).
 2. Let bot make moves.
