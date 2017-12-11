@@ -14,7 +14,7 @@ baseurl:
 sidebar:
     twitter: true
     github: true
-    slack: true
+    slack: false
     recent: false
     tags: true
     archive: true
