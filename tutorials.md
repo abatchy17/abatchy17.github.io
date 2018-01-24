@@ -13,7 +13,8 @@ title: Tutorials
 + Part 4: [Stack Buffer Overflow (SMEP Bypass)]({{ "/2018/01/kernel-exploitation-4" | absolute_url }})
 + Part 5: [Integer Overflow]({{ "/2018/01/kernel-exploitation-5" | absolute_url }})
 + Part 6: [NULL pointer dereference]({{ "/2018/01/kernel-exploitation-6" | absolute_url }})
-+ Part 7: Arbitrary Overwrite (TBD)
++ Part 7: [Arbitrary Overwrite on Windows 7 x86]({{ "/2018/01/kernel-exploitation-7" | absolute_url }})
++ Part 8: Arbitrary Overwrite on Windows 10 (TBD)
 
 ## Vulnhub Walkthroughs
 
