@@ -7,6 +7,7 @@ title: Projects
 
 - **[Slides](/files/bsidesvancouver2018.pdf)**
 - **[Boot2root VM](https://www.dropbox.com/s/j3r9l7kaydwsdm9/BSides-Vancouver-2018-Workshop.ova)**
+- **[Vulnhub mirror](https://www.vulnhub.com/entry/bsides-vancouver-2018-workshop,231/)**
 
 ---
 
