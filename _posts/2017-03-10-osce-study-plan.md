@@ -150,7 +150,7 @@ tags: [OSCE Prep]
 
 ---
 
-_Note: I'm currently studying through this myself, so links will continuously be updated. If you think a link should (not) be here, please let me know in the comments._  
+_Note: I'm no longer seeking OSCE, but this post has proven to be useful to many. If you think a link should (not) be here, please let me know in the comments._  
 
 
 \- Abatchy
