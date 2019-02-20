@@ -14,7 +14,7 @@ tags: [boot2root]
 
 **1. Use the official ISOs to create the VM:** Avoid using pre-created VMs, many times they aren't ported properly to be distributed and/or contain unwanted bloatware. Using the official ISOs gives you flexibility on creating the VM hypvervisor-agnostic, meaning it should have no dependencies on whether you created them on VMWare/VirtualBox, so don't install the guest additions.
 
-**2. Configure the network:** Let the VM rely on the DHCP server, take a look at the Vulnhub "Isolating the lab" section [here](https://www.vulnhub.com/lab/network/). Don't assign it a static IP unless needed, and make sure the player knows about that and any setup required.
+**2. Configure the network settings:** Let the VM rely on the DHCP server, take a look at the Vulnhub "Isolating the lab" section [here](https://www.vulnhub.com/lab/network/). Don't assign it a static IP unless needed, and make sure the player knows about that and any setup required.
 
 **3. Patch it up:** You normally want players to find the challenges you implemented, not the ones that result from an outdated vulnerable service/kernel. Updating it will reduce the odds of [this](https://dirtycow.ninja/) happening.
 
